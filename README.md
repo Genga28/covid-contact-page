@@ -5,9 +5,9 @@ A contact page made using Django framework and deployed using pythonanywhere(Ann
 
 This is a contact page which describes about the working of Disease outbreak portal and acts as a communicator between the user and the admin
 
-This page is made using Django Frame work
+This page is made using Django Frame work, used unsplash to dynamically update the images and Bootstap for css
 
-Then i deployed this application in cloud application called pythonanywhere
+Then I deployed this application in cloud application called pythonanywhere
 
 # Deployment
 
