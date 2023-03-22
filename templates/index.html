@@ -1,0 +1,104 @@
+{% extends "master.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  <div class="container-fluid px-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/static/images/1.jpg" class="d-block w-100" height=550px alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/static/images/2.jpg" class="d-block w-100" height=550px alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/static/images/3.jpg" class="d-block w-100" height=550px alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="album my-4 bg-light">
+    <h1 class="text-center my-4">What we do???</h1>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://source.unsplash.com/1200x750/?disease" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Provide up-to-date information: A disease outbreak portal can provide timely information on the latest outbreaks, including details on the location, type of disease, symptoms, and measures being taken to contain it. This helps people stay informed and take appropriate precautions to protect themselves and their communities.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x750/?biology" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Track the spread of diseases: Disease outbreak portals can provide real-time data on the spread of infectious diseases, including information on the number of cases, deaths, and recovery rates. This information can be used to identify trends and patterns, which can inform public health policies and interventions.</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x750/?medicine" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Alert the public: Disease outbreak portals can send alerts to the public, notifying them of any new outbreaks or changes in the status of existing outbreaks. This helps people stay informed and take necessary actions to protect themselves.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x750/?lab" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Provide educational resources: Disease outbreak portals can offer educational resources on infectious diseases, including information on symptoms, transmission, and prevention. This helps people understand the risks associated with various diseases and how to minimize their exposure.</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://source.unsplash.com/1200x750/?pharmacy" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Coordinate response efforts: Disease outbreak portals can help coordinate response efforts by providing a central hub of information for public health officials, medical professionals, and other stakeholders. This can help ensure a coordinated response to outbreaks and minimize the spread of infectious diseases.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://source.unsplash.com/1200x750/?nutrition" class="d-block w-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">Promote international collaboration: Disease outbreak portals can facilitate international collaboration by providing a platform for sharing information and resources across borders. This can help ensure a coordinated global response to outbreaks and reduce the impact of infectious diseases on populations around the world.
+              </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
