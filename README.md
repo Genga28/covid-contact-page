@@ -1,7 +1,7 @@
 # covid-contact-page
 A contact page made using Django framework and deployed using pythonanywhere(Annaconde)
 
-##Objective
+#Objective
 
 This is a contact page which describes about the working of Disease outbreak portal and acts as a communicator between the user and the admin
 
@@ -9,7 +9,7 @@ This page is made using Django Frame work
 
 Then i deployed this application in cloud application called pythonanywhere
 
-##Deploymet
+#Deployment
 
   -Intially I created a base terminal in the cloud platform
   -and cloned this git repo
